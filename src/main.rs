@@ -11,5 +11,5 @@ enum Lang {
 #[launch]
 fn rocket() -> _ {
     rocket::build()
-    greetings.push_str("Hello, world!")
+    greetings.push_str("Hello, world!");
 }
